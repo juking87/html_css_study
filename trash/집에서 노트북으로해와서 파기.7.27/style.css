@@ -1,0 +1,18 @@
+.header_logo{
+    height: 80px;
+    text-align: center;
+}
+
+.header_menu_list{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+}
+.header_menu_list a{
+    text-decoration: none;
+    color: gray;
+}
+.header_searchbar{
+    display:inline-flex;
+    width:50%;
+}
