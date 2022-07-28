@@ -12,7 +12,7 @@
         <div class="container-fluid m-0 p-0">
             <div class="header m-5">
                 <div class="row">
-                    <div class="header_menu_list order-2 order-sm-1 col-sm-6 col-md-4">
+                    <div class="header_menu_list d-none d-md-flex order-2 order-sm-2 col-sm-12 order-md-1 col-md-4">
                         <span>
                             <a href="">백화점</a>
                         </span>
@@ -23,25 +23,33 @@
                             <a href="">전시회</a>
                         </span>
                     </div>
-                    <div class="header_logo order-1 order-sm-2 col-sm-6 col-md-4">
+                    <div class="header_logo order-1 order-sm-1 col-sm-12 order-md-2 col-md-4">
                     </div>
-                    <div class="header_login order-sm-3 col-md-4">
-                        <button class="login" type="submit">로그인</button>
-                        <button class="mypage" type="submit"><i class='bx bxs-user'></i></button>
+                    <div class="header_login d-md-flex order-3 order-sm-3 col-md-4">
+                        <div class="row jk-st-login">
+                            <div class="col-8">
+                                <button class="login" type="submit">로그인</button>
+                            </div>    
+                            <div class="col-4">
+                                <button class="mypage" type="submit"><i class='bx bxs-user'></i></button>
+                            </div>    
+                        </div>
                     </div>
                 </div>
                 <div class="header_login_ver2">
-                    <button class="login_ver2" type="submit">로그인</button>
                     <button class="mypage_ver2" type="submit"><i class='bx bxs-user'></i></button>
+                </div>
+                <div class="header_logo_top">
+                    <img src="/Image/nav_logo.png">
                 </div>
             </div>
             <div class="main m-5">
-                <div class="main_content">
-                    <div class="main_content_bg">
-                        <img src="/calendarbg.jpg">
+                <div class="row main_content">
+                    <div class="col-12 main_content_bg">
+                        <img src="Image/calendarbg.jpg">
                     </div>
-                    <div class="main_content_comment">
-                        가까운 곳에서 문화 이번트를 찾아보자!!
+                    <div class="col-6 main_content_comment">
+                        문화 이벤트를 찾아보세요!!
                     </div>
                 </div>
                 <div class="main_content_searchicon">
@@ -50,10 +58,129 @@
             </div>
 
             <hr>
-
-
+            <div>
+                <p class="text-center jk-st-main_slide_text"> <i class='bx bx-chevron-left'></i>최신 업데이트<i class='bx bx-chevron-right' ></i></p>    
+            </div>
+            <div class="row jk-st-main_slide">
+                <div class="col-10 col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="/Image/Slide/Hyundae_dp.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Lotte_dep.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Nc_dp.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Shinsegae_dep.jpg" alt="Fourth slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+            <div>
+                <p class="text-center jk-st-main_slide_text"> <i class='bx bx-chevron-left'></i>최신 업데이트<i class='bx bx-chevron-right' ></i></p>    
+            </div>
+            <div class="row jk-st-main_slide">
+                <div class="col-10 col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="/Image/Slide/Hyundae_dp.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Lotte_dep.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Nc_dp.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/Image/Slide/Shinsegae_dep.jpg" alt="Fourth slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>    
+            </div>  
+            <nav class="navbar fixed-bottom bg-light jk-st-navbar_bottom">
+                <div class="container-fluid">
+                    <div class="row w-100">
+                        <div class="col-3 navbar_bottom_icon p-0">
+                            <div class="row w-100 m-0">
+                                <a class="col-12 navbar-brand m-0" href="#"><i class='bx bxs-home' ></i></a>
+                                <span class="col-12 navbar_bottom_specify1 m-0">홈</span>
+                            </div>
+                        </div>
+                        <div class="col-3 navbar_bottom_icon p-0">
+                            <div class="row w-100 m-0">
+                                <a class="col-12 navbar-brand m-0" href="#"><i class='bx bxs-category'></i></a>
+                                <span class="col-12 navbar_bottom_specify2 m-0">카테고리</span>
+                            </div>    
+                        </div>
+                        <div class="col-3 navbar_bottom_icon p-0">
+                            <div class="row w-100 m-0">
+                                <a class="col-12 navbar-brand m-0" href="#"><i class='bx bxs-heart' ></i></a>
+                                <span class="col-12 navbar_bottom_specify3 m-0">찜하기</span>
+                            </div>    
+                        </div>
+                        <div class="col-3 navbar_bottom_icon p-0">
+                            <div class="row w-100 m-0">
+                                <a class="col-12 navbar-brand m-0" href="#"><i class='bx bx-body'></i></a>
+                                <span class="col-12 navbar_bottom_specify4 m-0">마이플레너</span>
+                            </div>    
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>      
         </div>
 
-        모바일화면으로 가고 있지 않음. 모바일 화면 봐야함
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
     </body>
+
+
+
+
+
+
+
+
 </html>
