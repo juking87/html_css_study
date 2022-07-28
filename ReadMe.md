@@ -39,3 +39,9 @@
 2. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G G)
 3. 좌측 2사이드바 하단에 Branches 아코디언 메뉴 클릭
 4. 해당 PC에서 변경사항이 commit된 상태면 변경된 branch 에 마우스 커서를 올렸을 때 push 아이콘이 있음. 해당 아이콘 클릭
+
+# git + Visual Studio Code 에서 Pull Request 하기
+
+1. 다른 branch에서 변경사항이 있어야함.
+2. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G G)
+3. 좌측 2사이드바 하단에 Branches 아코디언 메뉴 클릭
