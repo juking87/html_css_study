@@ -1,0 +1,19 @@
+# 새 컴퓨터에 github에 올라와있는 내용 다운받기
+
+1. Visual Studio Code에서 projects(프로젝트들이 들어있는 부모 폴더) 폴더 열기
+2. 터미널 열기 (Ctrl+Shift+`)
+3. 다음 명령어를 입력
+> git clone https://github.com/juking87/html_css_study.git
+
+# Visual Studio Code에 유용한 git extension 설치
+
+1. Visual Studio Code에서 좌측 사이드바에서 extension 아이콘 클릭 (Ctrl+Shift+X)
+2. git extension pack 검색
+3. install 클릭
+
+# git + visual studio 에서  branch 만들기
+
+1. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G)
+2. 좌측 2사이드바 하단에 Branches 아코디언 메뉴 클릭
+3. 작업할 브랜치를 선택하거나, 생성하기(+버튼)
+
