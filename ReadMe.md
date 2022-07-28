@@ -28,7 +28,14 @@
 # git + Visual Studio Code 에서 commit 하기 (해당 PC git에 commit)
 
 1. 변경된 소스코드가 있어야함.
-1. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G G)
-1. 좌측 2사이드바에 Changes 아코디언 메뉴 클릭
-1. 변경사항을 확인하고 변경이 confirm된 코드의 경우 + 버튼을 눌러 staged changes 항목으로 올림
-1. Message에 변경사항에 대한 간략한 정보를 입력후 Ctrl+Enter
+2. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G G)
+3. 좌측 2사이드바에 Changes 아코디언 메뉴 클릭
+4. 변경사항을 확인하고 변경이 confirm된 코드의 경우 + 버튼을 눌러 staged changes 항목으로 올림
+5. Message에 변경사항에 대한 간략한 정보를 입력후 Ctrl+Enter
+
+# git + Visual Studio Code 에서 github에 push 하기
+
+1. 해당 PC에서 변경사항이 commit 된 상태이어야함.
+2. Visual Studio Code 에서 좌측 사이드바에서 git 아이콘 클릭(Ctrl+Shift+G G)
+3. 좌측 2사이드바 하단에 Branches 아코디언 메뉴 클릭
+4. 해당 PC에서 변경사항이 commit된 상태면 변경된 branch 에 마우스 커서를 올렸을 때 push 아이콘이 있음. 해당 아이콘 클릭
