@@ -40,4 +40,9 @@
 3. 좌측 2사이드바 하단에 Branches 아코디언 메뉴 클릭
 4. 해당 PC에서 변경사항이 commit된 상태면 변경된 branch 에 마우스 커서를 올렸을 때 push 아이콘이 있음. 해당 아이콘 클릭
 
-# ReadMe.md Finalzied
+# git hub에서 branch 합치기
+
+1. github에서 Pull Request 메뉴 들어가기
+2. New Pull Request 누르기
+3. base 와 합칠 branch 선택후 작업
+4. **remote(github)** 에서 작업을 한 후에는 **<u>꼭! Visual Studio Code에서 Sync 맞춰주기!</u>**
